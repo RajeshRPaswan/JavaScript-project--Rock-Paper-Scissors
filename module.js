@@ -10,7 +10,7 @@ CancelBtn.addEventListener('click', (b)=>{
     Rules.style.display = "none";
     })
 
-    //Player Select Area
+    //Player Selecting Area
     let line = document.querySelector('#lines')
     let Rock = document.querySelector('.fist')
     let Scissors = document.querySelector('.scissor')
@@ -54,7 +54,7 @@ Rock.addEventListener('click', RockCliked)
 Scissors.addEventListener('click', ScissorsClicked)
 Paper.addEventListener('click', PaperClicked)
 
-// Computer Select Area
+// Computer Selecting Area
 const options = ["Rock", "Paper", "Scissors"]
 let pcRock = document.querySelector('.pcRock')
 let pcPaper = document.querySelector('.pcPaper')
